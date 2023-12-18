@@ -12,9 +12,9 @@ spring:
       file-size-threshold: -1
       enabled: true
   datasource:
-    url: jdbc:mysql://${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME} #jdbc:mysql://monorail.proxy.rlwy.net:55053/railway
-    username: ${PROD_DB_USERNAME}
-    password: ${PROD_DB_PASSWORD}
+    url: jdbc:mysql://${HOST_PROD}:${PORT_PROD}/${DB_PROD} #jdbc:mysql://monorail.proxy.rlwy.net:55053/railway
+    username: ${USER_PROD}
+    password: ${PASS_PROD}
   application:
     name: ciudadania
 

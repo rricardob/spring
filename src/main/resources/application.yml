@@ -12,9 +12,9 @@ spring:
       file-size-threshold: -1
       enabled: true
   datasource:
-    username: root
-    url: mysql://root:4DDegac1e4EHeHAFEcaDfA2GhhAcfCgd@mysql.railway.internal:3306/railway
-    password: 4DDegac1e4EHeHAFEcaDfA2GhhAcfCgd
+    username: ${{ MySQL.MYSQLUSER }}
+    url: jdbc:mysql://${{ MySQL.MYSQLHOST }}:${{ MySQL.MYSQLPORT }}/${{ MYSQL.MYSQL_DATABASE }} #jdbc:mysql://monorail.proxy.rlwy.net:55053/railway
+    password: ${{ MySQL.MYSQLPASSWORD }}
   application:
     name: ciudadania
 

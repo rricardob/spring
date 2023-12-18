@@ -13,8 +13,9 @@ spring:
       enabled: true
   datasource:
     username: root
-    url: jdbc:mysql://monorail.proxy.rlwy.net:55053/railway
+    url: jdbc:mysql://monorail.proxy.rlwy.net:55053/railway #jdbc:mysql://monorail.proxy.rlwy.net:55053/railway
     password: 4DDegac1e4EHeHAFEcaDfA2GhhAcfCgd
+    driver-class-name: com.mysql.jdbc.Driver
   application:
     name: ciudadania
 

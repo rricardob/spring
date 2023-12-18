@@ -48,3 +48,7 @@ tasks.withType<KotlinCompile> {
         jvmTarget = "1.8"
     }
 }
+
+tasks.jar{
+    enabled = false
+}

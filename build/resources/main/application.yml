@@ -13,7 +13,7 @@ spring:
       enabled: true
   datasource:
     username: ${DB_USER:root}
-    url: ${DB_CONNECTION:jdbc:mysql://monorail.proxy.rlwy.net:55053/railway?useMysqlMetadata=true&serverTimezone=America/Guayaquil&allowPublicKeyRetrieval=false}
+    url: ${DB_CONNECTION:jdbc:mysql://monorail.proxy.rlwy.net:55053/railway}
     password: ${DB_PWD:4DDegac1e4EHeHAFEcaDfA2GhhAcfCgd}
   application:
     name: ciudadania
